@@ -1,0 +1,273 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.sidebar-closed {
+  width: 130px;
+  transition: width 0.3s ease-out;
+  position: fixed;
+  height: 100%;
+  overflow: hidden;
+  z-index: 10;
+  background: white;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+}
+
+.sidebar-head-closed {
+  /* width: 130px; */
+  height: 50px;
+  border-top-right-radius: 20px;
+}
+
+
+.lastClass {
+  list-style: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+}
+
+.questionCircle {
+  height: 70px;
+  width: 70px;
+  background: #0029FF;
+  border-radius: 50px;
+  position: relative;
+}
+
+.questionCircle svg {
+  width: 45px;
+  height: 45px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  color: white;
+}
+
+.pplSitting {
+  height: 70px;
+  width: 70px;
+  background: #0029FF;
+  border-radius: 50px;
+  position: relative;
+}
+
+.pplSitting svg {
+  width: 45px;
+  height: 45px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  color: white;
+}
+
+.cal {
+  height: 70px;
+  width: 70px;
+  background: #0029FF;
+  border-radius: 50px;
+  position: relative;
+}
+
+.cal svg {
+  width: 45px;
+  height: 45px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  color: white;
+}
+
+.sidebar-body-closed {
+  background: #fdfdfd;
+  position: absolute;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.closed-sides {
+  margin-top: 26px;
+  width: 68px;
+  text-align: center;
+  font-size: 36px;
+  color: #0029ff;
+  border: 1px solid #0029ff;
+  border-radius: 20px;
+}
+
+.main-content {
+}
+
+.main-content h2 {
+  font-weight: 700;
+  color: #0029ff;
+}
+
+.small-grey-col {
+  margin: 36px 0 75px;
+  background: #e9ecef;
+  padding: 25px 27px;
+}
+
+.card {
+  border-radius: 15px;
+  padding: 0;
+  height: 580px;
+  margin-bottom: 58px;
+}
+
+.card-head {
+  background-color: black;
+  border-top-left-radius: 15px;
+  font-size: 16px;
+  text-align: center;
+  color: white;
+  padding: 14px 0;
+  border-top-right-radius: 15px;
+}
+
+.card-text {
+  font-size: 14px;
+  width: 87%;
+}
+
+.textOfDD {
+  position: relative;
+  background: rgba(254, 255, 192, 0.2);
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.textOfDD span {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.boxCard {
+  position: relative;
+  width: 179px;
+  height: 100px;
+  border-radius: 15px;
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.boxCard input {
+  position: absolute;
+  height: 60px;
+  top: 43px;
+}
+
+
+.contt {
+  height: 360px;
+  overflow: hidden;
+  transition: height 0.3s ease;
+}
+
+.dropdownTextSecCard {
+  height: 50px ;
+
+}
+
+.boxCardLong {
+  position: relative;
+  width: 92%;
+  margin-bottom: 14px;
+  height: 60px;
+  border-radius: 15px;
+  left: -42%;
+  transform: translate(50%);
+  background: rgba(0, 0, 0, 0.05);
+
+}
+
+ svg {
+  transition: transform 0.3s ease;
+}
+
+.boxCardLong input {
+height: 100%;
+}
+
+.drpbtn {
+  width: 100px;
+  font-size: 10px;
+}
+
+.btnbtn {
+  font-size: 15px;
+  width: 30%;
+  margin-left: 15px;
+  background-color: #0029ff;
+  color: white;
+}
+
+.thrdCard {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.thrdCard label {
+  margin-bottom: 10px;
+}
+
+
+.horizontal-list {
+  list-style: none;
+  padding: 0;
+  text-align: end;
+  margin-top: 25px;
+}
+
+.horizontal-list li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+
+.dropdownLastY {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.dropdownLastY h4 {
+  background: #F2F2F2;
+  padding: 10px;
+}
+
+
+.dropdownLastW {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.contentShowML {
+  transition: height 0.3s ease;
+  height: 100%;
+  overflow: hidden;
+}
+
+.contF {
+  transition: height 0.3s ease;
+  height: 100%;
+  overflow: hidden;
+}
+
+
+.dropdownLastW h4{
+  padding: 10px;
+
+}

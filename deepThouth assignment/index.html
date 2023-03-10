@@ -1,0 +1,309 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Assignment</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link href="./custom.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.quilljs.com/1.3.6/quill.snow.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <div style="background: #F0F0F0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    overflow: hidden;
+    z-index: 10;">
+        <div class="container" style="height:90px">
+            <div class="h-100 row align-items-center justify-content-center">
+                <div class="col-6 text-start">
+                    <img src="./assets/images/logo 1.png" alt="">
+                </div>
+                <div class="col-6 text-end">
+                    <img class="mx-2" src="./assets/images/Group 1097.png" alt="">
+                    <img class="mx-2" src="./assets/images/Group 1100.png" alt="">
+                    <img class="mx-2" src="./assets/images/Vector.png" alt="">
+                    <img class="mx-2" src="./assets/images/Ellipse 53.png" alt="">
+                    <svg style="color: #3683F0;" xmlns="http://www.w3.org/2000/svg" width="26" fill="currentColor"
+                        class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
+                        <path
+                            d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z" />
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div style="margin-top: 100px;">
+
+        <div class="sidebar-closed">
+            <div class="sidebar-head-closed bg-dark d-flex justify-content-end align-items-center" onclick="sideBarF()">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" style="color: white;" fill="currentColor"
+                    class="bi bi-arrow-left-circle me-3" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z" />
+                </svg>
+            </div>
+            <div class="sidebar-body-closed">
+                <p class="closed-sides">1</p>
+            </div>
+        </div>
+
+        <div class="container main-content mt-2 w-75">
+            <h2>Technical Project Management</h2>
+            <div class="small-grey-col">
+                <h4 class="fw-bold">Explore the world of management</h4>
+                <p>As a project manager, you play an important reole in leading a project through initiation, planning,
+                    execution, monitoring, controlling and completion. How? Do you want to manage each and every step of
+                    your life?</p>
+            </div>
+
+
+
+
+
+            <div class="row justify-content-around">
+
+                <div class="card col-5">
+                    <h4 class="card-head">Technical Project Management</h4>
+                    <p class="card-text ps-3 py-4"><b> Description:</b> Story of Alignment Scope of Agility Specific
+                        Accountable Staggering Approach</p>
+                    <iframe height="291" src="https://www.youtube.com/embed/ENNKWp6x1Dg" title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+
+
+
+                <div class="card col-5">
+                    <h4 class="card-head">Threadbuild</h4>
+
+                    <p class="card-text ps-3 py-4"> <b> Description:</b> Watch the video and threadbuild, and jot out
+                        key
+                        threads while watching the video</p>
+
+                    <div class="dropdownTextSecCard">
+                        <p class="textOfDD" onclick="change()"><svg xmlns="http://www.w3.org/2000/svg" width="26"
+                                fill="currentColor" class="bi bi-chevron-up" id="my-svg" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z" />
+                            </svg> <span class="threadd">Thread A</span></p>
+
+                        <div class="contt">
+
+                            <div class="d-flex justify-content-around">
+                                <div class="boxCard">
+                                    <p class="boxCard-head p-2 m-0">
+                                        Sub thread 1
+                                    </p>
+                                    <input class="form-control" type="text" placeholder="Enter Text Here">
+                                </div>
+                                <div class="boxCard">
+                                    <p class="boxCard-head p-2 m-0">
+                                        Sub thread 1
+                                    </p>
+                                    <input class="form-control" type="text" placeholder="Enter Text Here">
+                                </div>
+                            </div>
+
+                            <ul class="horizontal-list">
+                                <li>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" fill="currentColor"
+                                        class="bi bi-lightbulb-fill" viewBox="0 0 16 16">
+                                        <path
+                                            d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13h-5a.5.5 0 0 1-.46-.302l-.761-1.77a1.964 1.964 0 0 0-.453-.618A5.984 5.984 0 0 1 2 6zm3 8.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1-.5-.5z" />
+                                    </svg>
+                                </li>
+                                <li>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" fill="currentColor"
+                                        class="bi bi-chat-left-text" viewBox="0 0 16 16">
+                                        <path
+                                            d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H4.414A2 2 0 0 0 3 11.586l-2 2V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z" />
+                                        <path
+                                            d="M3 3.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 6a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 6zm0 2.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z" />
+                                    </svg>
+                                </li>
+                                <li><svg xmlns="http://www.w3.org/2000/svg" width="18" fill="currentColor"
+                                        class="bi bi-question-square-fill" viewBox="0 0 16 16">
+                                        <path
+                                            d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm3.496 6.033a.237.237 0 0 1-.24-.247C5.35 4.091 6.737 3.5 8.005 3.5c1.396 0 2.672.73 2.672 2.24 0 1.08-.635 1.594-1.244 2.057-.737.559-1.01.768-1.01 1.486v.105a.25.25 0 0 1-.25.25h-.81a.25.25 0 0 1-.25-.246l-.004-.217c-.038-.927.495-1.498 1.168-1.987.59-.444.965-.736.965-1.371 0-.825-.628-1.168-1.314-1.168-.803 0-1.253.478-1.342 1.134-.018.137-.128.25-.266.25h-.825zm2.325 6.443c-.584 0-1.009-.394-1.009-.927 0-.552.425-.94 1.01-.94.609 0 1.028.388 1.028.94 0 .533-.42.927-1.029.927z" />
+                                    </svg>
+                                </li>
+                                <li>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" fill="currentColor"
+                                        class="bi bi-flower2" viewBox="0 0 16 16">
+                                        <path
+                                            d="M8 16a4 4 0 0 0 4-4 4 4 0 0 0 0-8 4 4 0 0 0-8 0 4 4 0 1 0 0 8 4 4 0 0 0 4 4zm3-12c0 .073-.01.155-.03.247-.544.241-1.091.638-1.598 1.084A2.987 2.987 0 0 0 8 5c-.494 0-.96.12-1.372.331-.507-.446-1.054-.843-1.597-1.084A1.117 1.117 0 0 1 5 4a3 3 0 0 1 6 0zm-.812 6.052A2.99 2.99 0 0 0 11 8a2.99 2.99 0 0 0-.812-2.052c.215-.18.432-.346.647-.487C11.34 5.131 11.732 5 12 5a3 3 0 1 1 0 6c-.268 0-.66-.13-1.165-.461a6.833 6.833 0 0 1-.647-.487zm-3.56.617a3.001 3.001 0 0 0 2.744 0c.507.446 1.054.842 1.598 1.084.02.091.03.174.03.247a3 3 0 1 1-6 0c0-.073.01-.155.03-.247.544-.242 1.091-.638 1.598-1.084zm-.816-4.721A2.99 2.99 0 0 0 5 8c0 .794.308 1.516.812 2.052a6.83 6.83 0 0 1-.647.487C4.66 10.869 4.268 11 4 11a3 3 0 0 1 0-6c.268 0 .66.13 1.165.461.215.141.432.306.647.487zM8 9a1 1 0 1 1 0-2 1 1 0 0 1 0 2z" />
+                                    </svg>
+                                </li>
+                                <li>
+                                    <div class="dropdown">
+                                        <a class="drpbtn btn btn-light dropdown-toggle"
+                                            style="box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25); " href="#" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            Select Categ
+                                        </a>
+
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">1</a></li>
+                                            <li><a class="dropdown-item" href="#">2</a></li>
+                                            <li><a class="dropdown-item" href="#">3</a></li>
+                                        </ul>
+                                    </div>
+
+                                </li>
+                                <li>
+                                    <div class="dropdown">
+                                        <a class="drpbtn btn btn-light dropdown-toggle"
+                                            style="box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25); " href="#" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            Select Proces
+                                        </a>
+
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">1</a></li>
+                                            <li><a class="dropdown-item" href="#">2</a></li>
+                                            <li><a class="dropdown-item" href="#">3</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+
+                            <p class="btn btnbtn">
+                                +Sub-thread
+                            </p>
+                            <div class="boxCardLong">
+                                <p class="boxCard-head p-2 m-0">
+                                    Sub thread 1
+                                </p>
+                                <input class="form-control" type="text" placeholder="Enter Text Here">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+
+                <div class="card col-5">
+                    <h4 class="card-head">Structure your Pointers</h4>
+
+                    <p class="card-text ps-3 py-4"> <b> Description : </b>Write a 300 - 400 word article from your
+                        thread .
+                        Publish
+                        your understanding and showcase your understanding to the entire world</p>
+
+                    <hr>
+                    <div class="thrdCard">
+                        <label for="title" class="fw-bold">
+                            Title
+                        </label>
+                        <input type="text" class="form-control" name="title" id="title">
+                    </div>
+                    <div class="mt-5 thrdCard">
+                        <label for="Content" class="fw-bold">
+                            Content
+                        </label>
+                        <div class="form-control h-75" id="editor-container"></div>
+                    </div>
+
+                </div>
+
+
+
+                <div class="card col-5">
+                    <h4 class="card-head">4SA Method</h4>
+
+                    <p class="card-text ps-3 py-4"><b> Description:</b> STo Explore more read more</p>
+                    <hr>
+
+                    <div class="dropdownLastY">
+                        <h4 onclick="lastCardDropi()"><svg xmlns="http://www.w3.org/2000/svg" width="26"
+                                fill="currentColor" class="bi bi-chevron-up secSVG" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z" />
+                            </svg> <span class="ms-3">Introduction</span></h4>
+
+                        <p class="contF">The 4SA Method , How to bring a idea into progress ?</p>
+
+                    </div>
+
+                    <div class="dropdownLastW">
+                        <h4 class="border rounded" onclick="lastCardDrop()">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="26" fill="currentColor"
+                                class="bi bi-chevron-up ThirdSVG" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z" />
+                            </svg> <span class="ms-3">Thread A</span>
+                        </h4>
+                        <div class="contentShowML">
+
+                            <p>How are you going to develop your stratergy ? Which method are you going to
+                                use to
+                                develop a
+                                stratergy ? What if the project is lengthy?
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis blanditiis ducimus ut
+                                eveniet
+                                perferendis commodi tempore atque enim dolorem inventore.
+                            </p>
+                            <p class="text-end text-decoration-underline seeMore" onclick="seeMore()"
+                                style="cursor: pointer;">
+                                See more</p>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            <ul class="lastClass">
+                <li class="questionCircle">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-question" viewBox="0 0 16 16">
+                        <path d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286zm1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94z"/>
+                      </svg>
+                </li>
+                <li class="pplSitting my-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-people-fill" viewBox="0 0 16 16">
+                        <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7Zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm-5.784 6A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216ZM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z"/>
+                      </svg>
+                </li>
+                <li class="cal my-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-calendar" viewBox="0 0 16 16">
+                        <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/>
+                      </svg>
+                </li>
+            </ul>
+
+        </div>
+
+
+   
+    </div>
+    <script src="https://cdn.quilljs.com/1.3.6/quill.js"></script>
+    <script>
+        var editor = new Quill('#editor-container', {
+            theme: 'snow'
+        });
+    </script>
+    <script src="./index.js"></script>
+
+
+</body>
+
+</html>
